@@ -1,0 +1,157 @@
+.pw-theme-color {
+  color: #e52725; }
+
+.pw-theme-background-color {
+  background-color: #e52725; }
+
+.pw-theme-stroke {
+  stroke: #e52725; }
+
+.fonts-loaded button.lineup,
+button.lineup {
+  border-color: #e52725;
+  color: #e52725; }
+
+button.lineup:hover {
+  color: #e52725 !important;
+  border-color: #e52725 !important; }
+
+button.lineup svg.icon-arrow-lineup {
+  fill: #e52725; }
+
+@media only screen and (max-device-width: 47.9375rem) {
+  li#user-state a {
+    color: #e52725; } }
+
+.arrow-circle,
+.freshness-banner {
+  background-color: #e52725; }
+
+.freshness-banner__content .freshness-banner__label {
+  color: #e52725; }
+
+.modal-box .icon-unfollow-this {
+  color: #e52725; }
+
+.dcsReprint__block .dcsReprint__link a {
+  color: #e52725; }
+
+.lineup-container .lineup-content--area .lineup-header {
+  background-color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--header-right a {
+  color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--label {
+  color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--label.past .lineup-label-arrow,
+.lineup-container .lineup-content .lineup-item--label.future .lineup-label-arrow {
+  background-color: #e52725;
+  stroke: #e52725; }
+
+@media only screen and (min-width: 48rem), print {
+  .lineup-container .lineup-content .lineup-item--label.past .lineup-label-arrow,
+  .lineup-container .lineup-content .lineup-item--label.future .lineup-label-arrow {
+    background-color: transparent; } }
+
+.lineup-container .lineup-content .lineup-item--footer a {
+  color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--content .lineup-tools a {
+  color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--content .content-type {
+  color: #e52725; }
+
+.lineup-container .lineup-content .lineup-item--content.current {
+  background-color: #e52725; }
+
+.theme--svg-fill {
+  fill: #e52725; }
+
+.lineup-container .lineup-content--area .lineup--timespan:after {
+  content: "July 18 - July 27"; }
+
+.lineup-label-arrow {
+  stroke: #e52725; }
+
+.lineup-container .lineup-content .arrow-pointing-diagonally {
+  background-image: url("/resources/css/images/dcs/arrow-pointing-diagonally-redAI.png"); }
+
+.lineup--hero {
+  background-image: url("/resources/css/images/dcs/lineup-image-redAI.jpg"); }
+
+.fonts-loaded .lineup-container .lineup-content .lineup-item--header-left {
+  line-height: 3.5rem;
+  font-size: 4.5rem; }
+
+/*--- STYLES FOR LANDING PAGE-BI5 ARTIFICIAL INTELLIGENCE ---*/
+.landing-hero {
+  background-image: url("/resources/css/images/dcs/landingpage-main.jpg"); }
+
+.landing-title {
+  font-size: 105px; }
+
+.theme--svg-color {
+  stroke: #e52725; }
+
+@media only screen and (min-width: 667px) and (max-width: 965px) {
+  .landing-title {
+    font-size: 105px; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .theme--title-size {
+    font-size: 85px;
+    line-height: 65px; }
+  .landing-hero {
+    background-image: url("/resources/css/images/dcs/landingpage-main-2.jpg"); } }
+
+/* iPhone 6 (portrait)----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .landing-buttons {
+    padding-top: 18px; }
+  .landing-button-info {
+    width: 45%;
+    padding: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px; } }
+
+/* ----------- Galaxy S3 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .landing-hero {
+    background-image: url("/resources/css/images/dcs/landingpage-main.jpg"); } }
+
+/* ----------- Galaxy S4 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .landing-hero {
+    background-image: url("/resources/css/images/dcs/landingpage-main-2.jpg"); } }
+
+/* ----------- Galaxy S5 ----------- */
+/* Portrait & Landscape */
+@media screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .landing-hero {
+    background-image: url("/resources/css/images/dcs/landingpage-main.jpg"); }
+  .landing-button-info {
+    padding-left: 18px; } }
+
+@media screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 3) {
+  .landing-hero {
+    background-image: url("/resources/css/images/dcs/landingpage-main.jpg"); }
+  .landing-buttons {
+    font-size: 12px; } }
+
+/* ----------- "Larger" Screens ----------- */
+@media screen and (min-device-width: 768px) {
+  .theme--title-size {
+    font-size: 85px;
+    line-height: 65px; }
+  .landing-title {
+    font-size: 105px; }
+  .theme--title-size {
+    font-size: 110px;
+    line-height: 80px; } }
+
+/*# sourceMappingURL=red-ai-2017.css.map */

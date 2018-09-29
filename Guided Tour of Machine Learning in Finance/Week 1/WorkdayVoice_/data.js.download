@@ -1,0 +1,29 @@
+
+    
+  
+    
+    
+        
+      
+  
+
+
+    
+  
+
+
+    
+    
+  
+
+
+  
+    
+      window.moatPrebidData = {"_pbd": false};
+      if (window.moatPrebidApi && typeof window.moatPrebidApi.updateSlotData === 'function') {
+        window.moatPrebidApi.updateSlotData(window.moatPrebidData);
+      } else {
+        window.moatPrebidData.initLoadTime = new Date().getTime();
+      }
+    
+  

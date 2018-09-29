@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0116)https://assets.adobedtm.com/9146204dcdccfe9dc3405fbec7e2354ec4405ec3/scripts/satellite-59568b3f64746d0b920054dc.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script type="text/javascript" async="" src="./btp.js.download"></script></head><body>
+    <script>
+      (function(){
+        function escapeForHtml(str){
+          if (!str) return str
+          return str
+            .replace(/\&/g, '&amp;')
+            .replace(/\</g, '&lt;')
+            .replace(/\>/g, '&gt;')
+            .replace(/\"/g, '&quot;')
+            .replace(/\'/g, '&#x27;')
+            .replace(/\//g, '&#x2F;')
+        }
+
+        var regexChars = /[.*+?^${}()|[\]\\]/g;
+        function escapeForRegex(str) {
+          return str.replace(regexChars, "\\$&");
+        }
+
+        function parseQueryString(){
+          var ret = {}, parts = location.search.substring(1).split('&');
+          for (var i = parts.length; i--;) {
+            var vardef = parts[i].split('='), varname = vardef[0], value = vardef[1];
+            ret[varname] = unescape(value);
+          }
+          return ret;
+        }
+
+        var queryParams = parseQueryString();
+
+        var markup = "<script type=\"text/javascript\">!function(){var e=document.createElement(\"script\");e.type=\"text/javascript\",e.async=!0,e.src=\"//www.rtb123.com/tags/875C8818-DDBA-35D3-A60C-1511412CB847/btp.js\";var t=document.getElementsByTagName(\"head\")[0];t?t.appendChild(e,t):(t=document.getElementsByTagName(\"script\")[0]).parentNode.insertBefore(e,t)}();</scr"+"ipt>";
+
+        for (var name in queryParams){
+          var regex = new RegExp('%' + escapeForRegex(name) + '%', 'ig');
+          markup = markup.replace(regex, 
+            escapeForHtml(queryParams[name]));
+        }
+
+        document.write(markup)
+      })();
+    </script><script type="text/javascript">!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//www.rtb123.com/tags/875C8818-DDBA-35D3-A60C-1511412CB847/btp.js";var t=document.getElementsByTagName("head")[0];t?t.appendChild(e,t):(t=document.getElementsByTagName("script")[0]).parentNode.insertBefore(e,t)}();</script>
+  
+
+</body></html>
